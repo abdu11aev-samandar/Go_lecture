@@ -4,12 +4,12 @@ import "fmt"
 
 const (
 	Monday    = 0
-	Tuesday   = 0
-	Wednesday = 0
-	Thursday  = 0
-	Friday    = 0
-	Saturday  = 0
-	Sunday    = 0
+	Tuesday   = 1
+	Wednesday = 2
+	Thursday  = 3
+	Friday    = 4
+	Saturday  = 5
+	Sunday    = 6
 )
 
 const (
