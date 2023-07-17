@@ -12,11 +12,11 @@ type Rectangle struct {
 }
 
 func width(rect Rectangle) int {
-	return (rect.b.x - rect.a.x)
+	return rect.b.x - rect.a.x
 }
 
 func length(rect Rectangle) int {
-	return (rect.a.y - rect.b.y)
+	return rect.a.y - rect.b.y
 }
 
 func area(rect Rectangle) int {
